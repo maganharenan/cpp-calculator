@@ -44,7 +44,7 @@ let result = wrapper.addNumber(3, withNumber: 5)
 print(result)  // Output: 8
 ```
 <div style="text-align: center;">
-<img src="/assets/calculator.gif" alt="Calculator GIF" style="width:100%; max-width:400px; height:auto;"/>
+<img src="/assets/calculator.gif" alt="Calculator GIF" style="width:70%; max-width:400px; height:auto;"/>
 </div>
 
 
