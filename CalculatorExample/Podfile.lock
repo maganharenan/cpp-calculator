@@ -1,0 +1,16 @@
+PODS:
+  - Calculator (1.0.0)
+
+DEPENDENCIES:
+  - Calculator (from `../CalculatorModule`)
+
+EXTERNAL SOURCES:
+  Calculator:
+    :path: "../CalculatorModule"
+
+SPEC CHECKSUMS:
+  Calculator: 3b50ec096e165892a0f730e4cb02290879b4a493
+
+PODFILE CHECKSUM: f5c5b5fdca40efbfd457e4184cb33a7c7157f5f4
+
+COCOAPODS: 1.15.2

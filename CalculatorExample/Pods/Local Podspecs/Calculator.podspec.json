@@ -1,0 +1,30 @@
+{
+  "name": "Calculator",
+  "version": "1.0.0",
+  "summary": "A pod that wraps a C++ module",
+  "description": "This pod provides a wrapper around a C++ library for use in iOS projects.",
+  "homepage": "http://example.com/MyPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Your Name": "your_email@example.com"
+  },
+  "source": {
+    "git": "http://example.com/MyPod.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": [
+    "ObjCWrapper/*.{h,mm}",
+    "Calculator.h",
+    "Calculator.cpp"
+  ],
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++14",
+    "CLANG_CXX_LIBRARY": "libc++"
+  }
+}
