@@ -1,6 +1,6 @@
 # C++ Calculator
 
-![Platform][Platform]  ![Language][Language]
+![Platform][Platform] ![License][License] 
 
 Calculator is an iOS CocoaPod that bridges C++ functionality to Swift via Objective-C. It wraps a simple C++ module and exposes it for Swift use, without needing to directly deal with C++ complexities. Perfect for those looking to integrate C++ into a Swift project effortlessly.
 
@@ -43,8 +43,10 @@ let wrapper = ObjCWrapper()
 let result = wrapper.addNumber(3, withNumber: 5)
 print(result)  // Output: 8
 ```
+<div style="text-align: center;">
+<img src="/assets/calculator.gif" alt="Calculator GIF" style="width:100%; max-width:400px; height:auto;"/>
+</div>
 
-<img src="/assets/calculator.gif" alt="" class="wp-image-207" style="aspect-ratio:4/3;object-fit:contain;width:auto;height:589px"/>
 
 [Platform]: https://img.shields.io/badge/platform%20-%20iPhone%20-%20lightblue
-[Language]: https://img.shields.io/badge/language%20-%20Swift%20-%20orange
+[License]: https://img.shields.io/badge/license%20-%20MIT%20-%20green
